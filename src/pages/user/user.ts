@@ -16,7 +16,7 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: 'user.html',
 })
 export class UserPage {
-  public thumbnail: String = "/assets/imgs/user.png";
+  public thumbnail: String = "assets/imgs/user.png";
   public name: String = "Marty McFly";
   public dob: String = "November 5, 1955";
 
